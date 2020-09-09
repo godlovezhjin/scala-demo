@@ -3,6 +3,8 @@ package com.zhjin.p8_collection.operate
 //分组---返回Map
 object GroupByOperate {
 
+    case class User(name: String, gender: Int)
+
     def main(args: Array[String]): Unit = {
         val list = List("Java", "Scala", "Python", "Shell", "JavaScript", "GoLang", "C", "C++", "C#", "SQL")
 
@@ -17,6 +19,3 @@ object GroupByOperate {
         for ((k, v) <- res) println(k + "-->" + v)
     }
 }
-
-
-case class User(name: String, gender: Int)

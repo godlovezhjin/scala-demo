@@ -1,7 +1,7 @@
 package com.zhjin.p8_collection.operate
 
 //折叠
-object FoldOperate {
+object FoldOperate01 {
 
     def main(args: Array[String]): Unit = {
         //等价于 List(1, 2, 3, 4).reduce((a, b) => a * b)

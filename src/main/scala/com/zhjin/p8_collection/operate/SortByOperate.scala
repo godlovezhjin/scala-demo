@@ -3,6 +3,8 @@ package com.zhjin.p8_collection.operate
 //排序、反转
 object SortByOperate {
 
+    case class Employee(val name: String, val age: Int, val salary: Double)
+
     def main(args: Array[String]): Unit = {
         /** ***********************基础函数 ************************************/
         val list = List(1, 3, 5, 7, 9, 2, 4, 6, 8, 10)
@@ -73,7 +75,3 @@ object SortByOperate {
         println("排序后 sortWith：" + res6)
     }
 }
-
-
-//定义样例类User实体
-case class Employee(val name: String, val age: Int, val salary: Double)
